@@ -41,6 +41,10 @@ android {
 
 dependencies {
 
+    // or Material Design 2
+    implementation(libs.androidx.material)
+    // Material Design 3
+    implementation(libs.androidx.material3)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
